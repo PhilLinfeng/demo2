@@ -1,0 +1,25 @@
+<div class="alert-panel">
+  <div class="menu">
+    <p-menubar [model]="menuItems" [autoDisplay]="false">
+      <div>
+          <button pButton label="Logout"></button>
+      </div>
+    </p-menubar>
+  </div>
+  <div class="tab">
+    <p-tabView>
+      <p-tabPanel header="Alerts">
+        <app-alert-table></app-alert-table>
+      </p-tabPanel>
+      <p-tabPanel header="Cases">
+        Cases
+      </p-tabPanel>
+      <p-tabPanel header="Query">
+        Query
+      </p-tabPanel>
+      <p-tabPanel header="Reports">
+        Reports
+      </p-tabPanel>
+    </p-tabView>
+  </div>
+</div>

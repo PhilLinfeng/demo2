@@ -1,0 +1,27 @@
+.group-btn {
+  margin: 10px 0 20px 0;
+}
+
+.group-btn .tab-btn {
+  padding: 5px;
+  min-width: 180px;
+  margin-right: 5px;
+}
+
+.alert-table .body-fields {
+  text-align: center;
+}
+
+.table-footer {
+  margin: 15px 0;
+}
+
+.table-footer .float-right {
+  float: right;
+}
+
+.table-footer .float-right .reset {
+  padding: 5px;
+  min-width: 140px;
+  margin-left: 5px;
+}
