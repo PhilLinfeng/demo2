@@ -1,0 +1,99 @@
+.account .account-panel {
+  border: 1px solid rgb(185, 200, 226);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.account .account-title {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(241, 243, 251);
+  border-bottom: 1px solid rgb(185, 200, 226);
+  border-radius: 5px 5px 0 0;
+}
+.account .account-title .dropdown {
+  margin-left: 10px;
+}
+.account .account-body {
+  padding: 10px;
+}
+.account .account-body p {
+  font-size: 16px;
+  color: #999;
+}
+.account .account-body span {
+  font-size: 20px;
+  font-weight: 800;
+}
+.account .account-body .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 10px;
+  border-left: 5px solid rgb(77, 138, 207);
+}
+.account .account-body .card .card-title {
+  padding: 10px;
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+  line-height: 30px;
+}
+.account .account-body .card .title-left {
+  float: left;
+}
+.account .account-body .card .title-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(77, 138, 207);
+  margin-right: 10px;
+}
+.account .account-body .card .title-id {
+  font-size: 14px;
+}
+.account .account-body .card .title-right {
+  float: right;
+}
+.account .account-body .card .title-option {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(62, 73, 177);
+  margin-left: 25px;
+}
+.account .account-body .card .title-option:hover {
+  cursor: pointer;
+  color: rgb(77, 138, 207);
+}
+.account .account-body .card .card-mid{
+  padding: 10px;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgb(210, 227, 243);
+}
+.account .account-body .card .card-mid span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.account .account-body .card .card-body {
+  margin: 20px 10px;
+}
+.dialog .dialog-body .body-id {
+  margin: 10px;
+}
+.dialog .dialog-body .body-content{
+
+}
+.dialog .dialog-body .body-content .box {
+  border: 1px solid rgb(185, 200, 226);
+  border-radius: 5px;
+  margin: 10px;
+}
+.dialog .dialog-body .body-content .box .box-title {
+  font-size: 16px;
+  color: rgb(77, 138, 207);
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.dialog .dialog-body .body-content .box .box-content {
+  padding: 10px;
+}
+.dialog .dialog-body .body-content .box .box-content .pull-rignt {
+  text-align: right;
+}

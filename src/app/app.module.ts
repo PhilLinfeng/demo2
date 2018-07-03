@@ -15,6 +15,10 @@ import { MenuItem } from 'primeng/api';
 import { TabViewModule } from 'primeng/tabview';
 import { TableModule } from 'primeng/table';
 import { CheckboxModule } from 'primeng/checkbox';
+import { DropdownModule } from 'primeng/dropdown';
+import { FormsModule } from '@angular/forms';
+import { DialogModule } from 'primeng/dialog';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { CheckboxModule } from 'primeng/checkbox';
     MenubarModule,
     TabViewModule,
     TableModule,
-    CheckboxModule
+    CheckboxModule,
+    FormsModule,
+    DropdownModule,
+    DialogModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
